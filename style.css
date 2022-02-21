@@ -1,0 +1,227 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+} 
+
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+    width: 50px;
+    height: 30px;
+}
+
+.hero, .rights {
+    background-color: #1f2937;
+}
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero h1{ 
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero p{
+    color: #E5E7EB;
+    margin: 1rem 0;
+    font-size: 18px;
+    
+}
+
+.nav {
+    height: 15%;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.nav-elements {
+    display: flex;
+    margin: 0 5rem;
+}
+
+.nav-elements-single {
+    margin: 0 .5rem;
+}
+
+.logo {
+    height: 70px;
+    width: 70px;
+    margin: 0 4rem;
+
+}
+
+.hero-content {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-content-left {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+
+
+.hero-content img {
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%    
+}
+
+.testimonials-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonials-section h1 {
+    height: 10%;
+    font-size: 36px;
+    margin: 2rem 0;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90%;
+}
+
+.testimonials img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.testimonials-single {
+    display: flex;
+    flex-direction: column;
+    height: 160px;
+    width: 130px;
+    margin: 2rem 1rem;
+    align-items: center;
+}
+
+
+
+.testimonials-single p {
+    font-size: 10px;
+    text-align: center;
+    line-height: 14px;
+    padding:7px 0;
+    width: 100px;
+    color: grey;
+}
+
+.testimonial-img {
+    border-radius: 5px;
+    border: 3px solid #3882F6;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.inspiring-quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    background-color: #e5e7eb;
+    justify-content: center;
+}
+
+.inspiring-text {
+    font-style: italic;
+    font-size: 36px;
+    width: 60%;
+    font-weight: 100;
+}
+
+.inspiring-quote h2{
+    font-weight: 700;
+    color: black;
+    align-self: flex-end;
+    margin-right: 20%;
+    margin-top: 2rem;
+    font-size: 36px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 100%;
+    align-items: center
+}
+
+.call-to-action {
+    width: 700px;
+    height: 120px;
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 7px;
+    margin: auto;
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 500px;
+    height: 100%;
+    margin-top: 2px;
+    margin-right: 3px;
+    margin-bottom: 2px;
+    margin-left: 3px;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+.rights {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 60px;
+}
+
+.rights p{
+    color: white;
+}
+
+.btn {
+    width: 75px;
+    height: 30px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .btn{
+    border: 2px solid white;
+    align-self: center;
+}
